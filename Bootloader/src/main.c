@@ -28,8 +28,6 @@ void APP_voidStartApplication (void)
 {
 	TimeOutFlag = 1;
 	SCB_VTOR = 0x08004000;
-	EndPoint    = (*(pf *) 0x08005C98);
-	MiddlePoint = (*(pf *) 0x080059D0);
 	EntryPoint  = (*(pf *) 0x08004004);
 	EntryPoint();
 }
