@@ -3,8 +3,8 @@
 /***********************            Author  : Hosam Ayoub            ***********************/
 /***********************            Layer   : MCAL                   ***********************/
 /***********************            SWC     : UART                   ***********************/
-/***********************            Version : 1.0                    ***********************/
-/***********************            Date    : 19 Sep 2023            ***********************/
+/***********************            Version : 2.0                    ***********************/
+/***********************            Date    : 17 Oct 2023            ***********************/
 /*******************************************************************************************/
 /*******************************************************************************************/
 #ifndef UART_CONFIG_H_
@@ -22,14 +22,16 @@
  */
 #define RECEIVER_ENABLE							UART_ENABLE
 
-#define BAUD_FRACTION							12
-#define BAUD_MINTASSA							162
+/* Enter The desired Baud rate */
+#define	BAUDRATE								1562500
+/* Enter the CPU Clock */
+#define CLK										25
 
 /* options:
  * 1- UART_OVERSAMPLING_BY_16
  * 2- UART_OVERSAMPLING_BY_8
  */
-#define OVERSAMPLING							UART_OVERSAMPLING_BY_16
+#define OVERSAMPLING							UART_OVERSAMPLING_BY_8
 
 /* options:
  * 1- UART_DATA_8BITS

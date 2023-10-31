@@ -3,8 +3,8 @@
 /***********************            Author  : Hosam Ayoub            ***********************/
 /***********************            Layer   : MCAL                   ***********************/
 /***********************            SWC     : UART                   ***********************/
-/***********************            Version : 1.0                    ***********************/
-/***********************            Date    : 19 Sep 2023            ***********************/
+/***********************            Version : 2.0                    ***********************/
+/***********************            Date    : 17 Oct 2023            ***********************/
 /*******************************************************************************************/
 /*******************************************************************************************/
 /*************************/
@@ -12,9 +12,9 @@
 #define UART_INTERFACE_H_
 
 void UART_voidInit (void);
-void UART_voidTransmit (u8 *Pointer_u8Data, u8 Copy_u8Length);
+void UART_voidTransmit (s8 *Pointer_u8Data);
 void UART_voidReceive (u8 *Pointer_u8Data);
-u8 UART_u8ReceiveWithoutBlocking (u8 *Pointer_u8Data);
+u8 UART_u8ReceiveWithoutBlocking (s8 *Pointer_u8Data);
 void UART_voidEnable (void);
 void UART_voidDisable (void);
 void UART_voidCallBack (pf pfCallBack);

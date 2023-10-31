@@ -13,12 +13,19 @@
 #include "MCAL/FMI/FMI_private.h"
 #include "MCAL/FMI/FMI_config.h"
 
-void FMI_voidEraseAppArea (void)
+void FMI_voidEraseAppArea (u8 Local_u8BankNumber)
 {
 	u8 Local_u8Iterator;
-	for (Local_u8Iterator = 1; Local_u8Iterator < (FMI_SECTOR5+1); Local_u8Iterator++)
+	if (Local_u8BankNumber == FMI_BANK1)
 	{
-		FMI_voidEraseSector (Local_u8Iterator);
+		for (Local_u8Iterator = 1; Local_u8Iterator < FMI_SECTOR5; Local_u8Iterator++)
+		{
+			FMI_voidEraseSector (Local_u8Iterator);
+		}
+	}
+	else if (Local_u8BankNumber == FMI_BANK2)
+	{
+		FMI_voidEraseSector(FMI_SECTOR5);
 	}
 }
 
@@ -85,21 +92,21 @@ void FMI_voidFlashWrite (u32 Copy_u32Address, u16 *Pointer_u16Arr, u8 Copy_u8Dat
 			/* Enable programming */
 			SET_BIT(FMI->CR, CR_PG);
 			/* Program the address */
-			#if FMI_PSIZE_BYTE == FMI_PSIZE
-				*((volatile u8 *)Copy_u32Address) = Pointer_u16Arr[Local_u8Iterator];
-				Copy_u32Address += 1;
-			#elif FMI_PSIZE_HALF_WORD == FMI_PSIZE
-				*((volatile u16 *)Copy_u32Address) = Pointer_u16Arr[Local_u8Iterator];
-				Copy_u32Address += 2;
-			#elif FMI_PSIZE_WORD == FMI_PSIZE
-				*((volatile u32 *)Copy_u32Address) = Pointer_u16Arr[Local_u8Iterator];
-				Copy_u32Address += 4;
-			#elif FMI_PSIZE_DOUBLE_WORD == FMI_PSIZE
-				*((volatile u64 *)Copy_u32Address) = Pointer_u16Arr[Local_u8Iterator];
-				Copy_u32Address += 8;
-			#else
-				#error "Wrong PSIZE configuration, check include/MCAL/FMI/FMI_config.h"
-			#endif
+#if FMI_PSIZE_BYTE == FMI_PSIZE
+			*((volatile u8 *)Copy_u32Address) = Pointer_u16Arr[Local_u8Iterator];
+			Copy_u32Address += 1;
+#elif FMI_PSIZE_HALF_WORD == FMI_PSIZE
+			*((volatile u16 *)Copy_u32Address) = Pointer_u16Arr[Local_u8Iterator];
+			Copy_u32Address += 2;
+#elif FMI_PSIZE_WORD == FMI_PSIZE
+			*((volatile u32 *)Copy_u32Address) = Pointer_u16Arr[Local_u8Iterator];
+			Copy_u32Address += 4;
+#elif FMI_PSIZE_DOUBLE_WORD == FMI_PSIZE
+			*((volatile u64 *)Copy_u32Address) = Pointer_u16Arr[Local_u8Iterator];
+			Copy_u32Address += 8;
+#else
+#error "Wrong PSIZE configuration, check include/MCAL/FMI/FMI_config.h"
+#endif
 			/* Check if there is a Flash memory operation ongoing */
 			while (GET_BIT(FMI->SR, SR_BSY));
 			/* Clear end of operations */

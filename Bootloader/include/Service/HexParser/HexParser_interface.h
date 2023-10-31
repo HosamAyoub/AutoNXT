@@ -10,7 +10,10 @@
 #ifndef HEXPARSER_INTERFACE_H_
 #define HEXPARSER_INTERFACE_H_
 
-void HexParser_voidParseData (u8 *Pointer_u8Data);
-void HexParser_voidParseRecord (u8 *Pointer_u8Data);
+void HexParser_voidParseData (s8 *Pointer_u8Data);
+void HexParser_voidParseRecord (s8 *Pointer_u8Data);
+void HexParser_voidSetCallBack(pf PointerToFunction);
+
+extern u32 Global_u32FlashBaseAddress, Global_u32StartAddress;
 
 #endif

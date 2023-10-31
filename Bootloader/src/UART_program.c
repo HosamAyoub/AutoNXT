@@ -3,8 +3,8 @@
 /***********************            Author  : Hosam Ayoub            ***********************/
 /***********************            Layer   : MCAL                   ***********************/
 /***********************            SWC     : UART                   ***********************/
-/***********************            Version : 1.0                    ***********************/
-/***********************            Date    : 19 Sep 2023            ***********************/
+/***********************            Version : 2.0                    ***********************/
+/***********************            Date    : 17 Oct 2023            ***********************/
 /*******************************************************************************************/
 /*******************************************************************************************/
 #include "LIB/STD_TYPES.h"
@@ -18,7 +18,7 @@ pf pfGlobalNotificationFunction = NULL;
 void UART_voidInit (void)
 {
 	/* Set Baud rate value */
-	UART1->BRR = ((BAUD_FRACTION << BRR_DIV_FRACTION0) | (BAUD_MINTASSA << BRR_DIV_MANTISSA0));
+	UART1->BRR = BRR_VALUE;
 	/* Set Oversampling value */
 	UART1->CR1.OVER8 = OVERSAMPLING;
 	/* Set Data length */
@@ -39,13 +39,14 @@ void UART_voidInit (void)
 	UART1->SR = 0;
 }
 
-void UART_voidTransmit (u8 *Pointer_u8Data, u8 Copy_u8Length)
+void UART_voidTransmit (s8 *Pointer_u8Data)
 {
-	u8 Local_u8Iterator;
-	for (Local_u8Iterator = 0; Local_u8Iterator < Copy_u8Length; Local_u8Iterator++)
+	u8 Local_u8Iterator = 0;
+	while (Pointer_u8Data[Local_u8Iterator] != '\0')
 	{
 		UART1->DR = Pointer_u8Data[Local_u8Iterator];
 		while (!GET_BIT(UART1->SR, SR_TC));
+		Local_u8Iterator++;
 	}
 }
 
@@ -55,7 +56,7 @@ void UART_voidReceive (u8 *Pointer_u8Data)
 	*Pointer_u8Data = UART1->DR;
 }
 
-u8 UART_u8ReceiveWithoutBlocking (u8 *Pointer_u8Data)
+u8 UART_u8ReceiveWithoutBlocking (s8 *Pointer_u8Data)
 {
 	u8 Local_u8ErrorStatus = 1;
 
@@ -65,7 +66,7 @@ u8 UART_u8ReceiveWithoutBlocking (u8 *Pointer_u8Data)
 	}
 	else
 	{
-		Local_u8ErrorStatus=0;
+		Local_u8ErrorStatus = 0;
 	}
 	return Local_u8ErrorStatus;
 }
