@@ -4,30 +4,33 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-../src/FMI_program.c \
-../src/GPIO_program.c \
-../src/HexParser_program.c \
-../src/RCC_program.c \
-../src/STK_program.c \
-../src/UART_program.c \
+../src/MFMI_program.c \
+../src/MGPIO_program.c \
+../src/MRCC_program.c \
+../src/MSCB_program.c \
+../src/MSTK_program.c \
+../src/MUART_program.c \
+../src/SHexParser_program.c \
 ../src/main.c 
 
 C_DEPS += \
-./src/FMI_program.d \
-./src/GPIO_program.d \
-./src/HexParser_program.d \
-./src/RCC_program.d \
-./src/STK_program.d \
-./src/UART_program.d \
+./src/MFMI_program.d \
+./src/MGPIO_program.d \
+./src/MRCC_program.d \
+./src/MSCB_program.d \
+./src/MSTK_program.d \
+./src/MUART_program.d \
+./src/SHexParser_program.d \
 ./src/main.d 
 
 OBJS += \
-./src/FMI_program.o \
-./src/GPIO_program.o \
-./src/HexParser_program.o \
-./src/RCC_program.o \
-./src/STK_program.o \
-./src/UART_program.o \
+./src/MFMI_program.o \
+./src/MGPIO_program.o \
+./src/MRCC_program.o \
+./src/MSCB_program.o \
+./src/MSTK_program.o \
+./src/MUART_program.o \
+./src/SHexParser_program.o \
 ./src/main.o 
 
 
