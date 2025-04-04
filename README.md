@@ -47,6 +47,13 @@ Advanced embedded system implementing automotive-grade features with AI integrat
 - AES-256 encrypted updates
 - Firebase backend integration
 - Critical update enforcement
+### 🚗 Car
+- Lane Keep Assistance with AI
+- Adaptive Cruise Control
+- Emergency Airbag System
+- Bluetooth Remote Control
+- Real-Time Operating System (RTOS)
+- Adaptive Lighting System
 
 ### 🛣️ AI-Powered Lane Assistance
 - Real-time video processing
@@ -66,17 +73,16 @@ Advanced embedded system implementing automotive-grade features with AI integrat
 - RTOS priority-based interrupt
 - System-wide task suspension
 
-## Hardware Architecture 🧩
+## Hardware Architecture 🛠️
 ![Hardware Diagram](docs/assets/hardware_layout.png)
 
-| Component               | Specification                          | Purpose                   |
-|-------------------------|----------------------------------------|---------------------------|
-| STM32F401CC             | 84MHz Cortex-M4, 256KB Flash           | Main ECU                  |
-| Raspberry Pi 3 B+       | 1.4GHz Quad-core, 1GB RAM              | AI Processing & FOTA      |
-| OV5647 Camera           | 8MP, 1080p30                           | Lane Detection            |
-| HC-SR04 Ultrasonic      | 2cm-400cm range                        | Distance Measurement      |
-| L298N Motor Driver      | 2A per channel                         | Motor Control             |
-| HC-05 Bluetooth         | 4.0 BLE                                | Remote Control            |
+| Component               | Specification                         | Purpose                                 |
+|-------------------------|---------------------------------------|-----------------------------------------|
+| Microcontroller         | STM32F401CC (Cortex-M4)               | Main ECU                                |
+| SBC                     | Raspberry Pi 3 B+                     | AI Processing & FOTA                    |
+| Sensors                 | Ultrasonic, LDR, FSR, Camera Module   | Lane Detection, Distance Measurement    |
+| Actuators               | DC Gear Motors, L298N Driver          | Motor Control                           |
+| Communication           | HC-05 Bluetooth Module                |  Remote Control                         |
 
 ## Software Architecture 🖥️
 ```plaintext
@@ -92,3 +98,4 @@ Software Stack
 └── Hardware Abstraction
     ├── STM32 Drivers
     └── RPi Peripherals
+````
