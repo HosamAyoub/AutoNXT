@@ -8,7 +8,7 @@
 Advanced embedded system implementing automotive-grade features with AI integration and wireless capabilities.
 
 ![System Overview](https://github.com/HosamAyoub/Photos/blob/main/AutoNXT/Car.jpg)
-![System Overview2](https://github.com/HosamAyoub/Photos/blob/main/AutoNXT/Car2.jpg)
+*Figure 1: The car with all components in development phase*
 
 ## Table of Contents 📖
 - [Project Overview](#project-overview)
