@@ -99,9 +99,8 @@ Software Stack
 # AutoNXT: Next-Generation Vehicle Technology
 
 AutoNXT is an innovative graduation project that redefines automotive functionality by integrating advanced features such as Firmware Over-The-Air (FOTA) updates, real-time operating systems (RTOS), and intelligent safety systems. The project combines modern embedded hardware with cutting-edge software to deliver an enhanced driving experience.  
-:contentReference[oaicite:0]{index=0}
 
----
+
 
 ## Table of Contents
 
@@ -118,14 +117,13 @@ AutoNXT is an innovative graduation project that redefines automotive functional
 - [License](#license)
 - [Contact & Acknowledgements](#contact--acknowledgements)
 
----
+
 
 ## Introduction
 
 In the realm of automotive technology, AutoNXT pushes the boundaries by integrating cutting-edge features that enhance both performance and safety. With a focus on user convenience and continuous improvement, the project employs FOTA updates, real-time processing, and intelligent control systems to transform the driving experience.  
-:contentReference[oaicite:1]{index=1}
 
----
+
 
 ## Project Overview
 
@@ -136,9 +134,6 @@ AutoNXT introduces a comprehensive platform that features:
 - **Advanced Embedded Systems:** Utilizing STM32F401CC microcontrollers and Raspberry Pi 3 B+.
 - **Real-Time Operations:** Coordinated by an RTOS to ensure deterministic and reliable performance.
 
-:contentReference[oaicite:2]{index=2}
-
----
 
 ## Microcontrollers
 
@@ -162,9 +157,7 @@ AutoNXT introduces a comprehensive platform that features:
   - Multiple USB ports, HDMI output, and a 40-pin GPIO header  
 
 *(Detailed information can be found in Chapter 2 of the document.)*  
-:contentReference[oaicite:3]{index=3}
 
----
 
 ## Firmware Over-The-Air (FOTA)
 
@@ -180,9 +173,7 @@ FOTA is central to the project, allowing for remote and seamless firmware update
   - Initiates at reset, checks for new firmware, validates data, and manages updates accordingly.
 
 *(Refer to Chapter 3 for a detailed description.)*  
-:contentReference[oaicite:4]{index=4}
 
----
 
 ## Real-Time Operating System (RTOS)
 
@@ -198,9 +189,7 @@ An RTOS is employed to handle the critical timing and scheduling requirements of
   - Enables concurrent operation of features like Adaptive Cruise Control, Lane Keep Assistance, and Automated Emergency Systems.
 
 *(For more details, see Chapter 4.)*  
-:contentReference[oaicite:5]{index=5}
 
----
 
 ## Hardware Components
 
@@ -218,9 +207,7 @@ The project incorporates several key hardware elements:
   - Detailed wiring diagrams and PCB designs are provided.
 
 *(Refer to Chapter 5 for complete hardware information.)*  
-:contentReference[oaicite:6]{index=6}
 
----
 
 ## Artificial Intelligence (AI) Model
 
@@ -234,9 +221,7 @@ AI is integrated into AutoNXT to enhance vehicle intelligence:
   - Calibrates using real-world driving data for continuous improvement.
 
 *(Detailed in Chapter 6.)*  
-:contentReference[oaicite:7]{index=7}
 
----
 
 ## System Applications
 
@@ -254,9 +239,7 @@ AutoNXT demonstrates practical applications across various systems:
   - Continuously monitors and corrects vehicle position.
 
 *(Chapter 7 provides in-depth working theories and diagrams.)*  
-:contentReference[oaicite:8]{index=8}
 
----
 
 ## Test Cases
 
@@ -272,22 +255,18 @@ Extensive testing has been performed to validate system functionality:
   - Most test cases have passed, with iterative improvements ongoing for the AI-based lane detection.
 
 *(For full test case details, see Chapter 8.)*  
-:contentReference[oaicite:9]{index=9}
 
----
 
 ## Conclusion
 
 AutoNXT marks a significant advancement in automotive technology by merging modern hardware with sophisticated software solutions. The integration of FOTA, RTOS, and intelligent systems has created a platform that is both safe and innovative, setting a new standard in vehicle performance and user experience.  
-:contentReference[oaicite:10]{index=10}
 
----
 
 ## License
 
 *This project is for academic purposes. Please refer to the project documentation or contact the project authors for detailed licensing information.*
 
----
+
 
 ## Contact & Acknowledgements
 
@@ -298,4 +277,3 @@ For further details or inquiries:
 - **Institution:** Information Technology Institute, Egypt Makes Electronics
 
 Special thanks to all contributors and academic advisors who supported the project.  
-:contentReference[oaicite:11]{index=11}
