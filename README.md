@@ -179,7 +179,7 @@ FOTA is central to the project, allowing for remote and seamless firmware update
 - **Bootloader Sequence:**  
   - Initiates at reset, checks for new firmware, validates data, and manages updates accordingly.
   
-![Bootloader Sequence](https://github.com/HosamAyoub/Photos/blob/main/AutoNXT/Bootloader%20Sequence.png)
+<img src="https://github.com/HosamAyoub/Photos/blob/main/AutoNXT/Bootloader%20Sequence.png" alt="Bootloader Sequence" width="300px">
 *Figure 2: The car with all components in development phase*
 
 *(Refer to Chapter 3 for a detailed description.)*  
