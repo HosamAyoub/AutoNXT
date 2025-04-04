@@ -179,8 +179,7 @@ FOTA is central to the project, allowing for remote and seamless firmware update
 - **Bootloader Sequence:**  
   - Initiates at reset, checks for new firmware, validates data, and manages updates accordingly.
   
-<img src="https://github.com/HosamAyoub/Photos/blob/main/AutoNXT/Bootloader%20Sequence.png" alt="Bootloader Sequence" width="300px">
-*Figure 2: The car with all components in development phase*
+<img src="https://github.com/HosamAyoub/Photos/blob/main/AutoNXT/Bootloader%20Sequence.png" alt="Bootloader Sequence" width="400px">
 
 *(Refer to Chapter 3 for a detailed description.)*  
 
@@ -216,8 +215,15 @@ The project incorporates several key hardware elements:
 - **Schematics & PCB Layout:**  
   - Detailed wiring diagrams and PCB designs are provided.
 
+| Component               | Specification                         | Purpose                                                         |
+|-------------------------|---------------------------------------|-----------------------------------------------------------------|
+| Microcontroller         | STM32F401CC (Cortex-M4)               | Main ECU                                                        |
+| SBC                     | Raspberry Pi 3 B+                     | AI Processing & FOTA                                            |
+| Sensors                 | Ultrasonic, LDR, FSR, Camera Module   | Lane Detection & Distance Measurement & ambient light detection |
+| Actuators               | DC Gear Motors, L298N Driver          | Motor Control                                                   |
+| Communication           | HC-05 Bluetooth Module                | Remote Control                                                  |
+
 ![System Overview](https://github.com/HosamAyoub/Photos/blob/main/AutoNXT/Car.jpg)
-*Figure 1: The car with all components in development phase*
 
 *(Refer to Chapter 5 for complete hardware information.)*  
 
