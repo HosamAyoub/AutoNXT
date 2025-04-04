@@ -180,9 +180,9 @@ FOTA is central to the project, allowing for remote and seamless firmware update
   - Initiates at reset, checks for new firmware, validates data, and manages updates accordingly.
   
 <figure>
-<img src="https://github.com/HosamAyoub/Photos/blob/main/AutoNXT/Bootloader%20Sequence.png" alt="FOTA Sequence" width="300px">
+<img src="https://github.com/HosamAyoub/Photos/blob/main/AutoNXT/Bootloader%20Sequence.png" alt="FOTA Sequence" width="400px">
 <figcaption>Fig.1: FOTA Sequence</figcaption>
-<img src="https://github.com/HosamAyoub/Photos/blob/main/AutoNXT/FOTA_Sequence.png" alt="Bootloader Sequence" width="300px">
+<img src="https://github.com/HosamAyoub/Photos/blob/main/AutoNXT/FOTA_Sequence.png" alt="Bootloader Sequence" width="400px">
 <figcaption>Fig.2: Bootloader Sequence</figcaption>
 </figure>
 
