@@ -1,9 +1,6 @@
 # AutoNXT - Next-Generation Vehicle Technology 🚗💻
 
-[![FOTA Enabled](https://img.shields.io/badge/FOTA-Enabled-success)](https://en.wikipedia.org/wiki/Firmware_over-the-air)
-[![RTOS](https://img.shields.io/badge/RTOS-FreeRTOS-informational)](https://www.freertos.org/)
-[![AI Integration](https://img.shields.io/badge/AI-Lane%20Detection-ff69b4)](https://pytorch.org/)
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
 
 Advanced embedded system implementing automotive-grade features with AI integration and wireless capabilities.
 
@@ -96,13 +93,23 @@ Software Stack
 ```
 
 
-# AutoNXT: Next-Generation Vehicle Technology
+
+
+
+
+
+
+# AutoNXT: Automotive Next-Generation Vehicle Technology 🚗💻
+[![FOTA Enabled](https://img.shields.io/badge/FOTA-Enabled-success)](https://en.wikipedia.org/wiki/Firmware_over-the-air)
+[![RTOS](https://img.shields.io/badge/RTOS-FreeRTOS-informational)](https://www.freertos.org/)
+[![AI Integration](https://img.shields.io/badge/AI-Lane%20Detection-ff69b4)](https://pytorch.org/)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 AutoNXT is an innovative graduation project that redefines automotive functionality by integrating advanced features such as Firmware Over-The-Air (FOTA) updates, real-time operating systems (RTOS), and intelligent safety systems. The project combines modern embedded hardware with cutting-edge software to deliver an enhanced driving experience.  
 
 
 
-## Table of Contents
+## Table of Contents 📖
 
 - [Introduction](#introduction)
 - [Project Overview](#project-overview)
@@ -127,7 +134,7 @@ In the realm of automotive technology, AutoNXT pushes the boundaries by integrat
 
 ## Project Overview
 
-AutoNXT introduces a comprehensive platform that features:
+AutoNXT introduces a comprehensive platform that features ✨:
 
 - **Wireless Firmware Updates (FOTA):** Seamlessly update vehicle firmware remotely.
 - **Intelligent Safety Systems:** Adaptive Cruise Control, Lane Keep Assistance, and Automated Emergency Actions.
@@ -135,7 +142,7 @@ AutoNXT introduces a comprehensive platform that features:
 - **Real-Time Operations:** Coordinated by an RTOS to ensure deterministic and reliable performance.
 
 
-## Microcontrollers
+## Microcontrollers 
 
 ### STM32F401CC Microcontroller
 - **Overview:**  
@@ -171,6 +178,9 @@ FOTA is central to the project, allowing for remote and seamless firmware update
   - Uses techniques such as sector erasure and bootloader operations.
 - **Bootloader Sequence:**  
   - Initiates at reset, checks for new firmware, validates data, and manages updates accordingly.
+  
+![Bootloader Sequence](https://github.com/HosamAyoub/Photos/blob/main/AutoNXT/Bootloader%20Sequence.png)
+*Figure 2: The car with all components in development phase*
 
 *(Refer to Chapter 3 for a detailed description.)*  
 
@@ -205,6 +215,9 @@ The project incorporates several key hardware elements:
   - DC motors with L298N driver for vehicle movement.
 - **Schematics & PCB Layout:**  
   - Detailed wiring diagrams and PCB designs are provided.
+
+![System Overview](https://github.com/HosamAyoub/Photos/blob/main/AutoNXT/Car.jpg)
+*Figure 1: The car with all components in development phase*
 
 *(Refer to Chapter 5 for complete hardware information.)*  
 
