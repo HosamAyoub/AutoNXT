@@ -1,0 +1,7 @@
+<map id="MTIMER_voidSetChannelInputPolarity" name="MTIMER_voidSetChannelInputPolarity">
+<area shape="rect" id="Node000001" title="This function to determine clock polarity of selected Timer and Channel." alt="" coords="285,5,480,48"/>
+<area shape="rect" id="Node000002" href="$_h_ultrasonic___program_8c.html#ab381a488c21f04fb4323baddfd730c7b" title="This Function initializes the Ultrasonic sensor with the provided configuration." alt="" coords="103,13,237,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="270,29,238,29,238,24,270,24"/>
+<area shape="rect" id="Node000003" href="$main_8c.html#a6288eba0f8e8ad3ab1544ad731eb7667" title="This function is responsible of application." alt="" coords="5,13,55,40"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="87,29,55,29,55,24,87,24"/>
+</map>

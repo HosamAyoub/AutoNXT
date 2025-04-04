@@ -1,0 +1,9 @@
+<map id="MADC_VoidEnable" name="MADC_VoidEnable">
+<area shape="rect" id="Node000001" title="This function is responsible for enabling the adc peripheral." alt="" coords="156,56,288,83"/>
+<area shape="rect" id="Node000002" href="$_h_f_s_r___program_8c.html#a9568ba1ee586c927fe39851b67128450" title="This function is responsible for initializing and enabling the analog to digital converter from MCAL ..." alt="" coords="5,5,108,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="160,53,102,35,103,30,162,48"/>
+<area shape="rect" id="Node000003" href="$_h_l_d_r___program_8c.html#a5bc20be9e8b35f6290cd4880510e89d5" title="This function is responsible for initializing and enabling the analog to digital converter from MCAL ..." alt="" coords="6,56,107,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="140,72,108,72,108,67,140,67"/>
+<area shape="rect" id="Node000004" href="$main_8c.html#a6288eba0f8e8ad3ab1544ad731eb7667" title="This function is responsible of application." alt="" coords="32,107,81,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="162,90,82,115,81,110,160,85"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="include/MCAL/UART/MUART_Interface.h" name="include/MCAL/UART/MUART_Interface.h">
+<area shape="rect" id="Node000001" title="The UART Interface Header file that has all the prototypes and arguments of UART driver." alt="" coords="59,5,248,48"/>
+<area shape="rect" id="Node000002" href="$_m_u_a_r_t___program_8c.html" title="The UART Program C file that has the functions body which is responsible for Transmitting and Receivi..." alt="" coords="5,96,161,123"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="127,62,96,97,92,94,123,58"/>
+<area shape="rect" id="Node000003" href="$main_8c.html" title="The main application C file that has the functions body which is responsible for the apllication." alt="" coords="185,96,267,123"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="184,58,216,94,212,97,180,61"/>
+</map>

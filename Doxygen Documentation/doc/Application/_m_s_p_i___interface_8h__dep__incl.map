@@ -1,0 +1,5 @@
+<map id="include/MCAL/SPI/MSPI_Interface.h" name="include/MCAL/SPI/MSPI_Interface.h">
+<area shape="rect" id="Node000001" title="The Serial peripheral interface header file that has all the Prototypes of the functions of SPI drive..." alt="" coords="5,5,169,48"/>
+<area shape="rect" id="Node000002" href="$main_8c.html" title="The main application C file that has the functions body which is responsible for the apllication." alt="" coords="46,96,128,123"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="90,64,90,95,84,95,84,64"/>
+</map>

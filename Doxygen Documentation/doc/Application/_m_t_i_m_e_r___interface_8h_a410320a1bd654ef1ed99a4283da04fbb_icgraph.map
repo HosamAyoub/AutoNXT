@@ -1,0 +1,8 @@
+<map id="MTIMER_voidSetPWMOption" name="MTIMER_voidSetPWMOption">
+<area shape="rect" id="Node000001" title="This Function Initialize the PWM MTIM peripheral output with the specified configuration." alt="" coords="284,31,475,57"/>
+<area shape="rect" id="Node000002" href="$_h_motor___program_8c.html#a2feed65850181fd7f2247a7c8fd5ba6a" title="This function is responsible of Initializing the motor." alt="" coords="103,5,236,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="268,33,236,29,236,24,269,28"/>
+<area shape="rect" id="Node000003" href="$main_8c.html#a6288eba0f8e8ad3ab1544ad731eb7667" title="This function is responsible of application." alt="" coords="5,31,55,57"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="268,47,55,47,55,41,268,41"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="88,36,55,42,54,37,87,31"/>
+</map>

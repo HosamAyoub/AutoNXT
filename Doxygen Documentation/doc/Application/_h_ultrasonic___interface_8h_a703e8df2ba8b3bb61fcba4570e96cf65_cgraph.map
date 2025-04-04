@@ -1,0 +1,5 @@
+<map id="HUltrasonic_voidTrigger" name="HUltrasonic_voidTrigger">
+<area shape="rect" id="Node000001" title="This Function to Send trigger Signal on Trigger pin of ultrasonic sensor." alt="" coords="5,5,162,32"/>
+<area shape="rect" id="Node000002" href="$_m_g_p_i_o___program_8c.html#ab984e27ec792d8b17bcc9b9829a2c149" title="this function is responsible for setting the value of any output GPIO pin (but in one clk cycle)" alt="" coords="210,5,376,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="162,16,194,16,194,21,162,21"/>
+</map>

@@ -1,0 +1,25 @@
+<map id="MTIMER_voidSetCCRValue" name="MTIMER_voidSetCCRValue">
+<area shape="rect" id="Node000001" title="This function to Set the compare value for the specified channel." alt="" coords="523,107,704,133"/>
+<area shape="rect" id="Node000002" href="$_h_motor___program_8c.html#aead990c15c657e572013c046ffd1ea15" title="This function is responsible of Controlling the Speed of motor." alt="" coords="303,5,456,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="577,100,529,73,474,46,441,35,442,30,476,42,532,68,580,96"/>
+<area shape="rect" id="Node000006" href="$_h_motor___program_8c.html#a9c87d4383a30da35889a30d4f3a74897" title="This function is responsible of Controlling the speed of the Left motors." alt="" coords="293,56,467,83"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="533,105,444,86,445,81,534,100"/>
+<area shape="rect" id="Node000007" href="$_h_motor___program_8c.html#adbb8473b9cd6174b5d2a89e6f3631c07" title="This function is responsible of Controlling the speed of the right motors." alt="" coords="288,107,471,133"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="508,123,472,123,472,117,508,117"/>
+<area shape="rect" id="Node000008" href="$main_8c.html#ad5ce94e8b0c51a9b49611e4dc0e9dc87" title="This Task responsible of Adaptive Light Control feature of the car." alt="" coords="129,107,210,133"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="536,139,476,148,380,154,284,148,210,134,211,128,284,143,380,149,475,143,535,134"/>
+<area shape="rect" id="Node000009" href="$_m_t_i_m_e_r___program_8c.html#a410320a1bd654ef1ed99a4283da04fbb" title="This Function Initialize the PWM MTIM peripheral output with the specified configuration." alt="" coords="284,208,475,235"/>
+<area shape="poly" id="edge10_Node000001_Node000009" title=" " alt="" coords="575,143,476,192,427,210,425,205,474,187,573,139"/>
+<area shape="rect" id="Node000003" href="$main_8c.html#a899537148500a0c3defc5321a7c9dc6b" title="This Task responsible of Movement the car." alt="" coords="105,5,234,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="288,21,235,21,235,16,288,16"/>
+<area shape="rect" id="Node000005" href="$main_8c.html#ae0fc6a272af6eb269e9efe254f4aae5d" title="This Task responsible of Adaptive Cruise Control feature of the car." alt="" coords="105,56,234,83"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="307,39,228,58,227,53,306,34"/>
+<area shape="rect" id="Node000004" href="$main_8c.html#a6288eba0f8e8ad3ab1544ad731eb7667" title="This function is responsible of application." alt="" coords="5,107,55,133"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="112,42,104,46,69,77,43,108,39,105,65,74,101,42,109,37"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="117,91,56,114,54,109,115,86"/>
+<area shape="poly" id="edge9_Node000008_Node000004" title=" " alt="" coords="113,123,55,123,55,117,113,117"/>
+<area shape="poly" id="edge13_Node000009_Node000004" title=" " alt="" coords="308,206,102,148,54,131,56,126,103,143,309,201"/>
+<area shape="rect" id="Node000010" href="$_h_motor___program_8c.html#a2feed65850181fd7f2247a7c8fd5ba6a" title="This function is responsible of Initializing the motor." alt="" coords="103,208,236,235"/>
+<area shape="poly" id="edge11_Node000009_Node000010" title=" " alt="" coords="269,224,236,224,236,219,269,219"/>
+<area shape="poly" id="edge12_Node000010_Node000004" title=" " alt="" coords="120,203,101,191,67,163,41,135,45,132,71,159,104,187,123,199"/>
+</map>

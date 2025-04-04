@@ -1,0 +1,7 @@
+<map id="HLDR_voidInit" name="HLDR_voidInit">
+<area shape="rect" id="Node000001" title="This function is responsible for initializing and enabling the analog to digital converter from MCAL ..." alt="" coords="5,31,107,57"/>
+<area shape="rect" id="Node000002" href="$_m_a_d_c___program_8c.html#a920ff8deb1396523f072ecf469d2604e" title="This function is responsible for enabling the adc peripheral." alt="" coords="155,5,287,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="107,34,139,29,140,34,108,39"/>
+<area shape="rect" id="Node000003" href="$_m_a_d_c___program_8c.html#a5185b131176ec96351d4e8eac14c0dcc" title="This function is responsible of Initializing the adc and it&#39;s options and modes." alt="" coords="166,56,276,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="108,49,151,56,151,61,107,54"/>
+</map>

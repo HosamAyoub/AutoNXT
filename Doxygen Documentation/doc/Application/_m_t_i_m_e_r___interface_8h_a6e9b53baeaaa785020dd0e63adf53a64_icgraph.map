@@ -1,0 +1,13 @@
+<map id="MTIMER_voidSetARRValue" name="MTIMER_voidSetARRValue">
+<area shape="rect" id="Node000001" title="This function to determine The max value of counts the counter will reach it." alt="" coords="524,31,705,57"/>
+<area shape="rect" id="Node000002" href="$_h_ultrasonic___program_8c.html#ab381a488c21f04fb4323baddfd730c7b" title="This Function initializes the Ultrasonic sensor with the provided configuration." alt="" coords="103,5,237,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="508,41,237,25,238,20,509,35"/>
+<area shape="rect" id="Node000004" href="$_m_t_i_m_e_r___program_8c.html#a410320a1bd654ef1ed99a4283da04fbb" title="This Function Initialize the PWM MTIM peripheral output with the specified configuration." alt="" coords="285,56,476,83"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="509,58,477,62,477,56,509,53"/>
+<area shape="rect" id="Node000003" href="$main_8c.html#a6288eba0f8e8ad3ab1544ad731eb7667" title="This function is responsible of application." alt="" coords="5,56,55,83"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="117,40,56,63,54,58,116,35"/>
+<area shape="poly" id="edge6_Node000004_Node000003" title=" " alt="" coords="270,72,55,72,55,67,270,67"/>
+<area shape="rect" id="Node000005" href="$_h_motor___program_8c.html#a2feed65850181fd7f2247a7c8fd5ba6a" title="This function is responsible of Initializing the motor." alt="" coords="103,107,237,133"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="308,89,229,109,228,103,306,84"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="116,103,54,81,56,76,117,98"/>
+</map>

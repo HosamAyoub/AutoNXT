@@ -1,0 +1,7 @@
+<map id="include/MCAL/RCC/MRCC_Interface.h" name="include/MCAL/RCC/MRCC_Interface.h">
+<area shape="rect" id="Node000001" title="The Reset Clock Control header file that has all the functions prototypes and arguments of the RCC dr..." alt="" coords="61,5,237,48"/>
+<area shape="rect" id="Node000002" href="$_m_r_c_c___program_8c.html" title="The Reset Clock Control C file that has the functions body which is responsible for peripherals clock..." alt="" coords="5,96,154,123"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="123,62,92,97,88,94,119,58"/>
+<area shape="rect" id="Node000003" href="$main_8c.html" title="The main application C file that has the functions body which is responsible for the apllication." alt="" coords="178,96,261,123"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="179,58,210,94,206,97,175,62"/>
+</map>

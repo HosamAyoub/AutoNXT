@@ -1,0 +1,9 @@
+<map id="MADC_VoidStartConversion" name="MADC_VoidStartConversion">
+<area shape="rect" id="Node000001" title="This function is responsible of Starting the conversion." alt="" coords="459,5,643,32"/>
+<area shape="rect" id="Node000002" href="$_h_f_s_r___program_8c.html#a8a481aed4b5ac1550fb1b114bd2b87ca" title="This function is responsible for measuring the change in the resistance of the sensor then we can mak..." alt="" coords="244,5,411,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="444,21,412,21,412,16,444,16"/>
+<area shape="rect" id="Node000003" href="$main_8c.html#a945255913c1be30ce24411d3e8263ed6" title="This Task responsible of Airbag feature of the car." alt="" coords="103,5,196,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="228,21,197,21,197,16,228,16"/>
+<area shape="rect" id="Node000004" href="$main_8c.html#a6288eba0f8e8ad3ab1544ad731eb7667" title="This function is responsible of application." alt="" coords="5,5,55,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="87,21,55,21,55,16,87,16"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="include/MCAL/TIMER/MTIMER_Interface.h" name="include/MCAL/TIMER/MTIMER_Interface.h">
+<area shape="rect" id="Node000001" title="The MCAL_Timer Header file that has all the prototypes and arguments of MTIMER driver." alt="" coords="294,5,440,48"/>
+<area shape="rect" id="Node000002" href="$_h_motor___program_8c.html" title="The MOTOR Interface C file that has the functions body which is responsible for Controlling the motor..." alt="" coords="5,96,158,123"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="280,55,127,98,126,93,278,50"/>
+<area shape="rect" id="Node000003" href="$_h_ultrasonic___program_8c.html" title="The HAL_Ultrasonic C file that has the functions body of MTIMER driver." alt="" coords="182,96,360,123"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="332,60,288,98,284,93,329,56"/>
+<area shape="rect" id="Node000004" href="$_m_t_i_m_e_r___program_8c.html" title="The MCAL_Timer C file that has the functions body Ultrasonic driver." alt="" coords="384,96,544,123"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="405,56,451,93,447,98,402,60"/>
+<area shape="rect" id="Node000005" href="$main_8c.html" title="The main application C file that has the functions body which is responsible for the apllication." alt="" coords="568,96,651,123"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="444,51,572,93,570,98,443,56"/>
+</map>

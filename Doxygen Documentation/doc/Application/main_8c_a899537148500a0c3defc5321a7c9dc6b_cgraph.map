@@ -1,0 +1,25 @@
+<map id="Movement_handler" name="Movement_handler">
+<area shape="rect" id="Node000001" title="This Task responsible of Movement the car." alt="" coords="5,157,135,184"/>
+<area shape="rect" id="Node000002" href="$_h_motor___program_8c.html#a583a6aa5cca1807f7ff5027e08e5986f" title="This function is responsible of Moving The Motor Backward." alt="" coords="213,5,387,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="77,156,116,100,146,68,181,42,197,34,200,38,184,46,150,72,121,103,81,159"/>
+<area shape="rect" id="Node000004" href="$_h_motor___program_8c.html#a88bb2a3f72a28cef64b59aa0783b7bc0" title="This function is responsible of Moving The Motor Forward." alt="" coords="219,56,381,83"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="86,155,127,123,182,92,202,84,204,89,184,97,130,128,89,159"/>
+<area shape="rect" id="Node000005" href="$_h_motor___program_8c.html#a410927400fa07dbe5eda716c79d50d7d" title="This function is responsible of Moving The Motor Left." alt="" coords="231,107,369,133"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="131,154,182,143,219,135,220,140,183,148,133,159"/>
+<area shape="rect" id="Node000006" href="$_h_motor___program_8c.html#a99371d7119548962fe352a7fd56204fd" title="This function is responsible of Moving The Motor Right." alt="" coords="227,157,373,184"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="135,168,211,168,211,173,135,173"/>
+<area shape="rect" id="Node000007" href="$_h_motor___program_8c.html#aead990c15c657e572013c046ffd1ea15" title="This function is responsible of Controlling the Speed of motor." alt="" coords="223,259,377,285"/>
+<area shape="poly" id="edge9_Node000001_Node000007" title=" " alt="" coords="89,182,130,214,184,244,210,254,208,259,182,249,127,218,86,187"/>
+<area shape="rect" id="Node000009" href="$_h_motor___program_8c.html#aa73bb326186f10a1388e3e1abec7a125" title="This function is responsible of Stopping the motor." alt="" coords="228,208,372,235"/>
+<area shape="poly" id="edge11_Node000001_Node000009" title=" " alt="" coords="133,182,183,193,220,202,219,207,182,199,131,187"/>
+<area shape="rect" id="Node000010" href="$_m_u_a_r_t___program_8c.html#a2ff4ac65056cbd70c333e33ec63a1bc8" title="This function responsible of Receiving the data from UART2." alt="" coords="183,309,417,336"/>
+<area shape="poly" id="edge13_Node000001_Node000010" title=" " alt="" coords="81,183,121,238,150,269,184,295,195,301,192,305,181,300,146,273,116,242,77,186"/>
+<area shape="rect" id="Node000003" href="$_m_g_p_i_o___program_8c.html#ab3372184ad814036f3d8c2d1049197dd" title="this function is responsible for setting the value of any output GPIO pin" alt="" coords="473,107,638,133"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="381,30,418,42,474,67,522,96,519,100,471,72,416,46,379,35"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="371,81,470,100,469,106,370,86"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="369,117,457,117,457,123,369,123"/>
+<area shape="poly" id="edge8_Node000006_Node000003" title=" " alt="" coords="370,154,469,134,470,140,371,159"/>
+<area shape="rect" id="Node000008" href="$_m_t_i_m_e_r___program_8c.html#ad439d9c46709ba7cd74187156ff1f9a9" title="This function to Set the compare value for the specified channel." alt="" coords="465,259,645,285"/>
+<area shape="poly" id="edge10_Node000007_Node000008" title=" " alt="" coords="377,269,449,269,449,275,377,275"/>
+<area shape="poly" id="edge12_Node000009_Node000003" title=" " alt="" coords="371,207,416,194,471,168,519,140,522,144,474,173,418,198,373,212"/>
+</map>

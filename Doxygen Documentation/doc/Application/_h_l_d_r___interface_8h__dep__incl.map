@@ -1,0 +1,7 @@
+<map id="include/HAL/LDR/HLDR_Interface.h" name="include/HAL/LDR/HLDR_Interface.h">
+<area shape="rect" id="Node000001" title="The Light Dependent Resistor Header file that has all the Prototypes of LDR driver." alt="" coords="66,5,225,48"/>
+<area shape="rect" id="Node000002" href="$_h_l_d_r___program_8c.html" title="The Light Dependent Resistor C file that has the functions body which is responsible for reading the ..." alt="" coords="5,96,150,123"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="120,62,90,97,86,94,116,58"/>
+<area shape="rect" id="Node000003" href="$main_8c.html" title="The main application C file that has the functions body which is responsible for the apllication." alt="" coords="174,96,256,123"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="175,58,206,94,202,97,171,62"/>
+</map>

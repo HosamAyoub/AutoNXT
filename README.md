@@ -100,10 +100,11 @@ Software Stack
 
 
 # AutoNXT: Automotive Next-Generation Vehicle Technology 🚗💻
-[![FOTA Enabled](https://img.shields.io/badge/FOTA-Enabled-success)](https://en.wikipedia.org/wiki/Firmware_over-the-air)
-[![RTOS](https://img.shields.io/badge/RTOS-FreeRTOS-informational)](https://www.freertos.org/)
-[![AI Integration](https://img.shields.io/badge/AI-Lane%20Detection-ff69b4)](https://pytorch.org/)
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![FOTA Enabled](https://img.shields.io/badge/FOTA-Enabled-success)](https://en.wikipedia.org/wiki/Firmware_over-the-air)]
+[![RTOS](https://img.shields.io/badge/RTOS-FreeRTOS-informational)](https://www.freertos.org/)]
+[![AI Integration](https://img.shields.io/badge/AI-Lane%20Detection-ff69b4)](https://pytorch.org/)]
+[![Doxygen] (https://www.doxygen.nl/)]
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)]
 
 AutoNXT is an innovative graduation project that redefines automotive functionality by integrating advanced features such as Firmware Over-The-Air (FOTA) updates, real-time operating systems (RTOS), and intelligent safety systems. The project combines modern embedded hardware with cutting-edge software to deliver an enhanced driving experience.  
 
@@ -182,6 +183,8 @@ FOTA is central to the project, allowing for remote and seamless firmware update
 <figure>
 <img src="https://github.com/HosamAyoub/Photos/blob/main/AutoNXT/Bootloader%20Sequence.png" alt="FOTA Sequence" width="400px">
 <figcaption>Fig.1: FOTA Sequence</figcaption>
+</figure>
+<figure>
 <img src="https://github.com/HosamAyoub/Photos/blob/main/AutoNXT/FOTA_Sequence.png" alt="Bootloader Sequence" width="400px">
 <figcaption>Fig.2: Bootloader Sequence</figcaption>
 </figure>
@@ -228,7 +231,10 @@ The project incorporates several key hardware elements:
 | Actuators               | DC Gear Motors, L298N Driver          | Motor Control                                                   |
 | Communication           | HC-05 Bluetooth Module                | Remote Control                                                  |
 
-![System Overview](https://github.com/HosamAyoub/Photos/blob/main/AutoNXT/Car.jpg)
+<figure>
+<img src="https://github.com/HosamAyoub/Photos/blob/main/AutoNXT/Car.jpg" alt="Hardware" width="400px">
+<figcaption>Fig.3: Hardware</figcaption>
+</figure>
 
 *(Refer to Chapter 5 for complete hardware information.)*  
 
@@ -243,6 +249,11 @@ AI is integrated into AutoNXT to enhance vehicle intelligence:
 - **Implementation:**  
   - Utilizes computer vision techniques with OpenCV and machine learning algorithms.
   - Calibrates using real-world driving data for continuous improvement.
+
+<figure>
+<img src="https://github.com/HosamAyoub/Photos/blob/main/AutoNXT/AI-Model.jpg" alt="AI Model" width="400px">
+<figcaption>Fig.4: AI Model</figcaption>
+</figure>
 
 *(Detailed in Chapter 6.)*  
 

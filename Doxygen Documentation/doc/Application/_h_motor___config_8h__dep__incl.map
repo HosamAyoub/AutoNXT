@@ -1,0 +1,5 @@
+<map id="include/HAL/MOTOR/HMotor_Config.h" name="include/HAL/MOTOR/HMotor_Config.h">
+<area shape="rect" id="Node000001" title="The Motor header file that has all the configurations of the Motor driver." alt="" coords="5,5,194,48"/>
+<area shape="rect" id="Node000002" href="$_h_motor___program_8c.html" title="The MOTOR Interface C file that has the functions body which is responsible for Controlling the motor..." alt="" coords="23,96,176,123"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="102,64,102,95,97,95,97,64"/>
+</map>

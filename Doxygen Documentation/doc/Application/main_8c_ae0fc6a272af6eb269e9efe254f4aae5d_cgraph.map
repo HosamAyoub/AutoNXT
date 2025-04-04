@@ -1,0 +1,21 @@
+<map id="Ultrasonic_handler" name="Ultrasonic_handler">
+<area shape="rect" id="Node000001" title="This Task responsible of Adaptive Cruise Control feature of the car." alt="" coords="5,56,134,83"/>
+<area shape="rect" id="Node000002" href="$_h_motor___program_8c.html#a88bb2a3f72a28cef64b59aa0783b7bc0" title="This function is responsible of Moving The Motor Forward." alt="" coords="200,5,362,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="128,53,207,34,208,39,129,58"/>
+<area shape="rect" id="Node000004" href="$_h_motor___program_8c.html#aead990c15c657e572013c046ffd1ea15" title="This function is responsible of Controlling the Speed of motor." alt="" coords="204,56,358,83"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="134,67,188,67,188,72,134,72"/>
+<area shape="rect" id="Node000006" href="$_h_ultrasonic___program_8c.html#a16baf740b4985fc6b77ec053af596b49" title="Function to Trigger Signal on Trigger pin of ultrasonic sensor and capture the Rising and falling edg..." alt="" coords="182,149,380,192"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="101,81,222,140,220,145,98,86"/>
+<area shape="rect" id="Node000003" href="$_m_g_p_i_o___program_8c.html#ab3372184ad814036f3d8c2d1049197dd" title="this function is responsible for setting the value of any output GPIO pin" alt="" coords="450,5,615,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="362,16,435,16,435,21,362,21"/>
+<area shape="rect" id="Node000005" href="$_m_t_i_m_e_r___program_8c.html#ad439d9c46709ba7cd74187156ff1f9a9" title="This function to Set the compare value for the specified channel." alt="" coords="443,56,623,83"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="358,67,427,67,427,72,358,72"/>
+<area shape="rect" id="Node000007" href="$_m_g_p_i_o___program_8c.html#ab984e27ec792d8b17bcc9b9829a2c149" title="this function is responsible for setting the value of any output GPIO pin (but in one clk cycle)" alt="" coords="450,107,616,133"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="380,148,448,134,449,140,381,153"/>
+<area shape="rect" id="Node000008" href="$_m_t_i_m_e_r___program_8c.html#a38582f85dd11f08f4bd05c60a55c20ad" title="This Function to Read the captured value from the specified channel." alt="" coords="428,157,637,184"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="381,168,412,168,412,173,381,173"/>
+<area shape="rect" id="Node000009" href="$_m_t_i_m_e_r___program_8c.html#a31530bc9bf1cda68f07528df15ab31d1" title="This function to read state of Capture/compare interrupt flag of the specified channel." alt="" coords="433,208,633,235"/>
+<area shape="poly" id="edge8_Node000006_Node000009" title=" " alt="" coords="381,188,449,202,448,207,380,193"/>
+<area shape="rect" id="Node000010" href="$_m_t_i_m_e_r___program_8c.html#a2a9f42815aa5d6777ab0ef17de860b91" title="This function to set The counter value in CNT register." alt="" coords="434,259,632,285"/>
+<area shape="poly" id="edge9_Node000006_Node000010" title=" " alt="" coords="319,190,370,218,429,244,451,252,449,257,427,249,368,223,317,195"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="MSPI2_u16ReadReceivedValue" name="MSPI2_u16ReadReceivedValue">
+<area shape="rect" id="Node000001" title="This funciton used to read the data register asynchronous after the interrupt occurs." alt="" coords="175,5,378,32"/>
+<area shape="rect" id="Node000002" href="$main_8c.html#a99dcee8691c26d6c63eab59827e8bbf2" title=" " alt="" coords="5,5,127,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="159,21,127,21,127,16,159,16"/>
+</map>

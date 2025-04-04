@@ -1,0 +1,19 @@
+<map id="MTIMER_voidSetPWMOption" name="MTIMER_voidSetPWMOption">
+<area shape="rect" id="Node000001" title="This Function Initialize the PWM MTIM peripheral output with the specified configuration." alt="" coords="5,183,197,209"/>
+<area shape="rect" id="Node000002" href="$_m_t_i_m_e_r___program_8c.html#afed9bf381cb61c903365975e1c302804" title="This Function to Enable Capture/Compare output." alt="" coords="255,5,453,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="109,180,160,113,199,75,243,42,255,36,258,40,246,46,202,79,164,117,113,184"/>
+<area shape="rect" id="Node000003" href="$_m_t_i_m_e_r___program_8c.html#a6424658280c92374f84edfdb24177571" title="This Function is to Enable The Specific Timer." alt="" coords="268,56,440,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="116,180,169,137,205,113,244,92,261,85,263,90,246,97,208,117,173,141,119,184"/>
+<area shape="rect" id="Node000004" href="$_m_t_i_m_e_r___program_8c.html#a6e9b53baeaaa785020dd0e63adf53a64" title="This function to determine The max value of counts the counter will reach it." alt="" coords="264,107,444,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="137,180,244,143,272,135,274,140,245,148,139,185"/>
+<area shape="rect" id="Node000005" href="$_m_t_i_m_e_r___program_8c.html#ad439d9c46709ba7cd74187156ff1f9a9" title="This function to Set the compare value for the specified channel." alt="" coords="264,157,444,184"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="197,184,248,179,249,184,198,189"/>
+<area shape="rect" id="Node000006" href="$_m_t_i_m_e_r___program_8c.html#ab048ca1199757b431c30e18852e1bdf6" title="This Function to determine channel Direction: INPUT/OUTPUT." alt="" coords="245,208,463,235"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="198,203,229,206,229,211,197,208"/>
+<area shape="rect" id="Node000007" href="$_m_t_i_m_e_r___program_8c.html#a91a154513a0ba8af767d9114ec7b15a0" title="This function to determine the output mode of of the specified channel." alt="" coords="258,259,450,285"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="139,207,245,244,274,252,272,257,244,249,137,212"/>
+<area shape="rect" id="Node000008" href="$_m_t_i_m_e_r___program_8c.html#a9c22dcdd358b3022d8fb7d77f1b436a1" title="This function to set Prescaler value of selected Timer." alt="" coords="266,309,442,336"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="119,208,173,251,208,275,246,295,263,302,261,307,244,300,205,279,169,255,116,212"/>
+<area shape="rect" id="Node000009" href="$_m_t_i_m_e_r___program_8c.html#afe3d470237eed9f87ab75cf6f01a2637" title="This function to determine the direction of the counter: Upcounting or DownCounting." alt="" coords="261,360,447,403"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="113,208,165,274,203,312,246,346,255,351,252,355,243,350,199,316,161,277,109,211"/>
+</map>

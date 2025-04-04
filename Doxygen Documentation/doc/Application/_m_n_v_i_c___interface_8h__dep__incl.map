@@ -1,0 +1,7 @@
+<map id="include/MCAL/NVIC/MNVIC_Interface.h" name="include/MCAL/NVIC/MNVIC_Interface.h">
+<area shape="rect" id="Node000001" title="the NVIC interface header file that contains the declaration of all NVIC functions" alt="" coords="61,5,242,48"/>
+<area shape="rect" id="Node000002" href="$_m_n_v_i_c___program_8c.html" title="the NVIC program src file that contains all defenations of NVIC driver" alt="" coords="5,96,157,123"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="125,62,94,97,90,94,121,58"/>
+<area shape="rect" id="Node000003" href="$main_8c.html" title="The main application C file that has the functions body which is responsible for the apllication." alt="" coords="181,96,264,123"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="182,58,213,94,209,97,178,62"/>
+</map>

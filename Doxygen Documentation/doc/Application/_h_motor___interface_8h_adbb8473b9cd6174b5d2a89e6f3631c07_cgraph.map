@@ -1,0 +1,5 @@
+<map id="HMotor_VoidCarSpeedRight" name="HMotor_VoidCarSpeedRight">
+<area shape="rect" id="Node000001" title="This function is responsible of Controlling the speed of the right motors." alt="" coords="5,5,189,32"/>
+<area shape="rect" id="Node000002" href="$_m_t_i_m_e_r___program_8c.html#ad439d9c46709ba7cd74187156ff1f9a9" title="This function to Set the compare value for the specified channel." alt="" coords="237,5,417,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="189,16,221,16,221,21,189,21"/>
+</map>

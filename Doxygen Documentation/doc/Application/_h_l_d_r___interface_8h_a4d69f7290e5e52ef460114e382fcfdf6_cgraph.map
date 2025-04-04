@@ -1,0 +1,7 @@
+<map id="HLDR_u32MeasureLightIntensity" name="HLDR_u32MeasureLightIntensity">
+<area shape="rect" id="Node000001" title="This function is responsible measure the change in the resistance of the sensor then we can make any ..." alt="" coords="5,31,216,57"/>
+<area shape="rect" id="Node000002" href="$_m_a_d_c___program_8c.html#a80e024e957de42fed2c3dff7d360c17f" title="This function is responsible for reading the converted data which stored in data register." alt="" coords="302,5,456,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="216,31,286,25,286,30,216,37"/>
+<area shape="rect" id="Node000003" href="$_m_a_d_c___program_8c.html#a262a8715f97bab54e212d14e44b35446" title="This function is responsible for starting the conversion for specific channel." alt="" coords="264,56,494,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="216,51,248,54,248,60,216,57"/>
+</map>

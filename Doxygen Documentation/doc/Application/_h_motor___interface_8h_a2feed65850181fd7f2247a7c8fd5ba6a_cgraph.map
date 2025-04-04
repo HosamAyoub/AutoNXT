@@ -1,0 +1,25 @@
+<map id="HMotor_VoidCarInit" name="HMotor_VoidCarInit">
+<area shape="rect" id="Node000001" title="This function is responsible of Initializing the motor." alt="" coords="5,132,139,159"/>
+<area shape="rect" id="Node000002" href="$_m_g_p_i_o___program_8c.html#a50c70acc1669a34bee9bd7350ea8bc77" title="this function is responsible for setting any pin mode of STM GPIO pins" alt="" coords="206,81,371,108"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="132,129,213,110,214,115,133,134"/>
+<area shape="rect" id="Node000003" href="$_m_g_p_i_o___program_8c.html#af764d75a88a2476b5a14318c12b4fe3f" title="this function is responsible for setting the output configurations of any selected GPIO pin" alt="" coords="187,132,390,159"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="139,143,171,143,171,148,139,148"/>
+<area shape="rect" id="Node000004" href="$_m_t_i_m_e_r___program_8c.html#a410320a1bd654ef1ed99a4283da04fbb" title="This Function Initialize the PWM MTIM peripheral output with the specified configuration." alt="" coords="193,183,384,209"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="133,157,214,176,213,181,132,162"/>
+<area shape="rect" id="Node000005" href="$_m_t_i_m_e_r___program_8c.html#afed9bf381cb61c903365975e1c302804" title="This Function to Enable Capture/Compare output." alt="" coords="448,5,646,32"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="371,180,388,169,401,154,408,139,411,107,415,74,423,58,436,42,441,38,444,42,440,46,427,61,420,76,417,108,413,140,405,157,392,173,374,184"/>
+<area shape="rect" id="Node000006" href="$_m_t_i_m_e_r___program_8c.html#a6424658280c92374f84edfdb24177571" title="This Function is to Enable The Specific Timer." alt="" coords="461,56,633,83"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="368,180,388,169,404,151,411,132,419,112,436,93,445,87,448,91,440,97,424,114,416,134,409,154,392,173,370,185"/>
+<area shape="rect" id="Node000007" href="$_m_t_i_m_e_r___program_8c.html#a6e9b53baeaaa785020dd0e63adf53a64" title="This function to determine The max value of counts the counter will reach it." alt="" coords="457,107,637,133"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="354,179,389,168,413,156,437,143,459,135,461,141,439,148,415,160,391,173,355,185"/>
+<area shape="rect" id="Node000008" href="$_m_t_i_m_e_r___program_8c.html#ad439d9c46709ba7cd74187156ff1f9a9" title="This function to Set the compare value for the specified channel." alt="" coords="457,157,637,184"/>
+<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="384,184,441,178,442,184,385,189"/>
+<area shape="rect" id="Node000009" href="$_m_t_i_m_e_r___program_8c.html#ab048ca1199757b431c30e18852e1bdf6" title="This Function to determine channel Direction: INPUT/OUTPUT." alt="" coords="438,208,656,235"/>
+<area shape="poly" id="edge8_Node000004_Node000009" title=" " alt="" coords="385,203,423,206,422,212,384,208"/>
+<area shape="rect" id="Node000010" href="$_m_t_i_m_e_r___program_8c.html#a91a154513a0ba8af767d9114ec7b15a0" title="This function to determine the output mode of of the specified channel." alt="" coords="452,259,643,285"/>
+<area shape="poly" id="edge9_Node000004_Node000010" title=" " alt="" coords="328,207,439,244,468,252,466,257,437,249,326,212"/>
+<area shape="rect" id="Node000011" href="$_m_t_i_m_e_r___program_8c.html#a9c22dcdd358b3022d8fb7d77f1b436a1" title="This function to set Prescaler value of selected Timer." alt="" coords="460,309,635,336"/>
+<area shape="poly" id="edge10_Node000004_Node000011" title=" " alt="" coords="307,208,363,251,400,275,439,295,457,302,455,307,437,300,397,279,360,255,304,212"/>
+<area shape="rect" id="Node000012" href="$_m_t_i_m_e_r___program_8c.html#afe3d470237eed9f87ab75cf6f01a2637" title="This function to determine the direction of the counter: Upcounting or DownCounting." alt="" coords="454,360,640,403"/>
+<area shape="poly" id="edge11_Node000004_Node000012" title=" " alt="" coords="301,208,355,274,395,312,439,346,448,351,446,355,437,350,391,316,351,277,297,211"/>
+</map>

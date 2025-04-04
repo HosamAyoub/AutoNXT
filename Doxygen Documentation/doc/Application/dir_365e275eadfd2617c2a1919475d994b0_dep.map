@@ -1,0 +1,12 @@
+<map id="include/MCAL" name="include/MCAL">
+<area shape="rect" id="node2" href="dir_48c2155b29e378f90bdfac2e9aa2695b.html" title="ADC" alt="" coords="564,64,612,91"/>
+<area shape="rect" id="node3" href="dir_f78b3eb676906be3e9787c72de077c62.html" title="EXTI" alt="" coords="492,64,540,91"/>
+<area shape="rect" id="node4" href="dir_23dfd0cb97d24be708f7d555a5df8ad8.html" title="GPIO" alt="" coords="415,64,468,91"/>
+<area shape="rect" id="node5" href="dir_a6ba622f592b9ecde0493ec7972c30e1.html" title="NVIC" alt="" coords="340,64,391,91"/>
+<area shape="rect" id="node6" href="dir_f80b2e063a34416eb4f5341a2237dc06.html" title="RCC" alt="" coords="268,64,316,91"/>
+<area shape="rect" id="node7" href="dir_88bdbcb12297f9cbf399dc119c1e8e11.html" title="SPI" alt="" coords="202,64,244,91"/>
+<area shape="rect" id="node8" href="dir_7377204cf2c388b1c9bacb87e47590b6.html" title="TIMER" alt="" coords="117,64,177,91"/>
+<area shape="rect" id="node9" href="dir_55e55bfca2057a02c10213a5a462e75d.html" title="UART" alt="" coords="38,64,93,91"/>
+<area shape="rect" id="clust2" href="dir_365e275eadfd2617c2a1919475d994b0.html" alt="" coords="27,53,705,101"/>
+<area shape="rect" id="clust1" href="dir_d44c64559bbebec7f509842c48db8b23.html" title="include" alt="" coords="16,16,716,112"/>
+</map>
