@@ -100,7 +100,7 @@ Software Stack
 
 
 # AutoNXT: Automotive Next-Generation Vehicle Technology 🚗💻
-[![FOTA](https://img.shields.io/badge/FOTA-Enabled-success)](https://en.wikipedia.org/wiki/Firmware_over-the-air)
+[![FOTA](https://img.shields.io/badge/FOTA-Update-success)](https://en.wikipedia.org/wiki/Firmware_over-the-air)
 [![RTOS](https://img.shields.io/badge/RTOS-FreeRTOS-informational)](https://www.freertos.org/)
 [![AI Integration](https://img.shields.io/badge/AI-Lane%20Detection-ff69b4)](https://pytorch.org/)
 [![Doxygen Documentation](https://img.shields.io/badge/Doxygen-Documentation-cyan.svg)](https://github.com/HosamAyoub/AutoNXT/tree/main/Doxygen%20Documentation)
