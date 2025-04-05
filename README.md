@@ -1,8 +1,7 @@
 # AutoNXT: Automotive Next-Generation Vehicle Technology 🚗💻
 [![FOTA](https://img.shields.io/badge/FOTA-Update-success)](https://en.wikipedia.org/wiki/Firmware_over-the-air)
 [![RTOS](https://img.shields.io/badge/RTOS-FreeRTOS-informational)](https://www.freertos.org/)
-[![AI Integration](https://img.shields.io/badge/AI-Lane%20Detection-ff69b4)](https://pytorch.org/)
-[![Doxygen Documentation](https://img.shields.io/badge/Doxygen-Documentation-cyan.svg)](https://github.com/HosamAyoub/AutoNXT/tree/main/Doxygen%20Documentation)
+[![Doxygen Documentation](https://img.shields.io/badge/Doxygen-Documentation-ff69b4)](https://github.com/HosamAyoub/AutoNXT/tree/main/Doxygen%20Documentation)
 
 AutoNXT is an innovative graduation project that redefines automotive functionality by integrating advanced features such as Firmware Over-The-Air (FOTA) updates, real-time operating systems (RTOS), and intelligent safety systems. The project combines modern embedded hardware with cutting-edge software to deliver an enhanced driving experience.  
 
