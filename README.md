@@ -129,7 +129,7 @@ The project incorporates several key hardware elements:
 | Communication           | HC-05 Bluetooth Module                | Remote Control                                                  |
 
 <figure>
-<img src="https://github.com/HosamAyoub/Photos/blob/main/AutoNXT/Car.jpg" alt="Hardware" width="400px">
+<img src="https://github.com/HosamAyoub/Photos/blob/main/AutoNXT/Car.jpg" alt="Hardware">
 <figcaption>Fig.3: Hardware</figcaption>
 </figure>
 
@@ -148,7 +148,7 @@ AI is integrated into AutoNXT to enhance vehicle intelligence:
   - Calibrates using real-world driving data for continuous improvement.
 
 <figure>
-<img src="https://github.com/HosamAyoub/Photos/blob/main/AutoNXT/AI-Model.jpg" alt="AI Model" width="400px">
+<img src="https://github.com/HosamAyoub/Photos/blob/main/AutoNXT/AI-Model.jpg" alt="AI Model">
 <figcaption>Fig.4: AI Model</figcaption>
 </figure>
 
@@ -206,6 +206,6 @@ For further details or inquiries:
 
 - **Submitted by:** Hossam Ayoub, Hesham Yasser, Dina Elsayed, Diaa Assem, Ziad Khaled, Seif El-Deen Ashraf  
 - **Supervised by:** Eng. Joe Nofal, Eng. Nour Hassan  
-- **Institution:** Information Technology Institute, Egypt Makes Electronics
+- **Institution:** Information Technology Institute **ITI**, Egypt Makes Electronics
 
 Special thanks to all contributors and academic advisors who supported the project.  
